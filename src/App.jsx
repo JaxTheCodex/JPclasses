@@ -12,7 +12,7 @@ import Register from './pages/Register';
 
 function App() {
   return (
-    <Router>
+    <Router basename='JPclasses'>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
