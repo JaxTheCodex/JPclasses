@@ -70,7 +70,7 @@ const Home = () => {
   };
 
   return (
-    <div id="Home" className="w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-600 via-pink-500 to-yellow-400 text-white overflow-hidden relative mt-8 md:mt-8">
+    <div id="Home" className="w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-600 via-pink-500 to-yellow-400 text-white overflow-hidden relative mt-12 md:mt-8">
 
 
       {/* Heading */}
@@ -78,7 +78,7 @@ const Home = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-5xl md:text-6xl font-extrabold text-center drop-shadow-lg mt-8"
+        className="text-3xl md:text-6xl font-extrabold text-center drop-shadow-lg mt-8"
       >
         Welcome to JP Classes
       </motion.h1>

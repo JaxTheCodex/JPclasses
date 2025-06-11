@@ -244,7 +244,7 @@ const Cources = () => {
   return (
     <div className="py-10 px-5 mx-auto bg-gradient-to-br from-purple-600 via-pink-500 to-yellow-400 text-white flex justify-center">
       <div className="max-w-7xl w-full">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Courses</h2>
+        <h2 className="text-3xl font-bold text-center mt-18 mb-8">Our Courses</h2>
   
         {/* 🔍 Search Bar */}
         <div className="flex justify-center mb-6">
