@@ -100,10 +100,10 @@ const Home = () => {
         transition={{ delay: 1, duration: 0.8 }}
       >
         <Link
-          to="/courses"
+          to="/register"
           className="bg-white text-purple-700 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-purple-100 transition-all duration-300"
         >
-          View Courses
+          Free Demo
         </Link>
       </motion.div>
 

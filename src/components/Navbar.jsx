@@ -151,12 +151,12 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Register (Desktop only) */}
+          {/* Register (Desktop only)
           <div className="hidden md:flex items-center space-x-4 ml-6">
             <Link to="/register" className="bg-white text-purple-700 font-bold px-5 py-2 rounded-full shadow-md hover:bg-purple-100 transition duration-300" title="Register Now">
               Register
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Menu */}
