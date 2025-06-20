@@ -28,7 +28,7 @@ const Register = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 flex items-start justify-center p-6">
-      <div className="mt-24 bg-white/80 backdrop-blur-md rounded-2xl shadow-2xl p-8 w-full max-w-2xl">
+      <div className="mt-32 bg-white/80 backdrop-blur-md rounded-2xl shadow-2xl p-8 w-full max-w-2xl">
         <h1 className="text-4xl font-extrabold text-center text-purple-700 mb-8 drop-shadow-lg">
           Register for Classes
         </h1>

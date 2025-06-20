@@ -71,7 +71,7 @@ const Courses = () => {
   const [tab, setTab] = useState('Class 1–5');
 
   return (
-    <div className="bg-gradient-to-br from-purple-700 via-pink-600 to-yellow-400 text-white py-20 px-6 font-[Orbitron] mt-20">
+    <div className="bg-gradient-to-br from-purple-700 via-pink-600 to-yellow-400 text-white py-20 px-6 font-[Orbitron] mt-24">
       <h2 className="text-4xl font-bold text-center mb-14 drop-shadow-md">📘 Courses Offered</h2>
 
       {/* Tabs */}
