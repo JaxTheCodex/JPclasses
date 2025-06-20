@@ -9,6 +9,7 @@ import Testimonials from './pages/Testimonials';
 import FAQ from './pages/FAQ';
 import Blog from './pages/Blog';
 import Register from './pages/Register';
+import SubCources from './pages/SubCources';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/faq" element={<FAQ/>} />
             <Route path="/blog" element={<Blog/>} />
             <Route path="/register" element={<Register />} />
+            <Route path="/subcources" element={<SubCources />} />
           </Routes>
         </main>
         <Footer />

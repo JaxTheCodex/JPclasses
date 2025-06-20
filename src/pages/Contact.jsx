@@ -12,6 +12,8 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-stretch">
         {/* Contact Form */}
         <form
+          action="https://formsubmit.co/jagarnathpatro861@gmail.com" // 
+          method="POST"
           className="bg-white/70 backdrop-blur-md p-10 rounded-xl shadow-2xl space-y-6 border border-white/70 flex flex-col h-full"
           aria-label="Contact Form"
         >

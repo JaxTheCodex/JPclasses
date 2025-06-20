@@ -34,7 +34,7 @@ const Register = () => {
         </h1>
 
         <form
-          action="https://formsubmit.co/jagarnathpatro836@gmail.com" // 
+          action="https://formsubmit.co/jagarnathpatro861@gmail.com" // 
           method="POST"
           className="space-y-6"
         >

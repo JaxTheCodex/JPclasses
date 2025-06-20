@@ -115,40 +115,41 @@ const Navbar = () => {
 
             {/* More Dropdown */}
             <div className="relative group">
-              <button
-                onClick={toggleMore}
-                className="relative group text-lg font-semibold flex items-center transition duration-300 hover:text-yellow-300"
-              >
-                More <i className="fas fa-caret-down ml-1"></i>
-                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
-              </button>
+  <button
+    onClick={toggleMore}
+    className="relative group text-lg font-semibold flex items-center transition duration-300 hover:text-yellow-300"
+  >
+    More <i className="fas fa-caret-down ml-1"></i>
+    <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+  </button>
 
-              {isMoreOpen && (
-                <div className="absolute mt-2 min-w-[180px] bg-black text-white shadow-lg z-50 animate-fade-in">
-                  <Link
-                    to="/testimonials"
-                    className="block px-5 py-3 hover:bg-white hover:text-black transition duration-300 font-medium"
-                    onClick={() => setIsMoreOpen(false)}
-                  >
-                    <i className="fas fa-comment-dots mr-2 text-yellow-400"></i>Testimonials
-                  </Link>
-                  <Link
-                    to="/faq"
-                    className="block px-5 py-3 hover:bg-white hover:text-black transition duration-300 font-medium"
-                    onClick={() => setIsMoreOpen(false)}
-                  >
-                    <i className="fas fa-question-circle mr-2 text-yellow-400"></i>FAQ
-                  </Link>
-                  <Link
-                    to="/blog"
-                    className="block px-5 py-3 hover:bg-white hover:text-black transition duration-300 font-medium"
-                    onClick={() => setIsMoreOpen(false)}
-                  >
-                    <i className="fas fa-blog mr-2 text-yellow-400"></i>Blog
-                  </Link>
-                </div>
-              )}
-            </div>
+  {isMoreOpen && (
+    <div className="absolute right-0 mt-2 min-w-[180px] bg-black text-white shadow-lg z-50 animate-fade-in rounded-md overflow-hidden">
+      <Link
+        to="/testimonials"
+        className="block px-5 py-3 hover:bg-white hover:text-black transition duration-300 font-medium"
+        onClick={() => setIsMoreOpen(false)}
+      >
+        <i className="fas fa-comment-dots mr-2 text-yellow-400"></i>Testimonials
+      </Link>
+      <Link
+        to="/faq"
+        className="block px-5 py-3 hover:bg-white hover:text-black transition duration-300 font-medium"
+        onClick={() => setIsMoreOpen(false)}
+      >
+        <i className="fas fa-question-circle mr-2 text-yellow-400"></i>FAQ
+      </Link>
+      <Link
+        to="/blog"
+        className="block px-5 py-3 hover:bg-white hover:text-black transition duration-300 font-medium"
+        onClick={() => setIsMoreOpen(false)}
+      >
+        <i className="fas fa-blog mr-2 text-yellow-400"></i>Blog
+      </Link>
+    </div>
+  )}
+</div>
+
           </div>
 
           {/* Register (Desktop only)

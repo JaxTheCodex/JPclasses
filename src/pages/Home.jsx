@@ -13,8 +13,8 @@ import onlineLearning from '../assets/online-learning.jpg';
 const images = [
   {
     src: classroom,
-    title: "Learn with Experts",
-    description: "Smart classrooms to boost your knowledge."
+    title: "Learn From Experts",
+    description: "We have an excellent team of best qualified & experienced teachers."
   },
   {
     src: coding,
@@ -24,7 +24,7 @@ const images = [
   {
     src: students,
     title: "Achieve Excellence",
-    description: "Join thousands of successful students."
+    description: "Become excellent in what you are learning."
   },
   {
     src: onlineLearning,
